@@ -21,6 +21,7 @@ const App = (props) => {
   );
 };
 
+//create one mapStateToProps and then pass down state via props.
 const mapStateToProps = (state) => {
   return {
     car: state.carReducer.car,
